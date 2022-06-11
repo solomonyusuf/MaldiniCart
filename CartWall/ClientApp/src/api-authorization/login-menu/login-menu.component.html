@@ -16,10 +16,10 @@
 </ul>
 <ul class="navbar-nav" *ngIf="!(isAuthenticated | async)">
   <li class="nav-item" style="margin:5px;font-style:italic;">
-    <a class="btn btn-outline-primary" [routerLink]='["/authentication/register"]'>Auth</a>
+    <a class="btn btn-outline-primary" [routerLink]='["/authentication/register"]'>Register</a>
   </li>
-  <!--
+  
   <li class="nav-item" style="margin: 5px; font-style: italic;">
     <a class="btn btn-outline-success" [routerLink]='["/authentication/login"]'>Login</a>
-  </li>-->
+  </li>
 </ul>
